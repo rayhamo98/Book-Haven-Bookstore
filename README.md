@@ -1,3 +1,3 @@
-# Book-Haven-Bookstore
+# Book Haven Site
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/rayhamo98/Book-Haven-Bookstore)
+This is the project for the Book Haven Bookstore website.

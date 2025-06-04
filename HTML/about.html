@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Book Haven</title>
+  <link rel="stylesheet" href="../assets/css/about.css" />
+  <script src="../js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo-group">
+      <img src="../assets/images/logo.png" alt="Book Haven Logo" />
+      <span class="logo-title">Book Haven Bookstore</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html" class="active">About Us</a></li>
+        <li><a href="custom.html">Community</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="about-section">
+      <h1>About Book Haven</h1>
+      <p>Book Haven is your local destination for books, magazines, journals, and office supplies. We're proud to serve a community of readers and knowledge-seekers with a passion for literature and learning.</p>
+    </section>
+
+    <section class="hours-section">
+      <h2>Business Hours</h2>
+      <table>
+        <tr><td>Monday – Friday:</td><td>9 a.m. – 8 p.m.</td></tr>
+        <tr><td>Saturday:</td><td>10 a.m. – 6 p.m.</td></tr>
+        <tr><td>Sunday:</td><td>11 a.m. – 5 p.m.</td></tr>
+      </table>
+    </section>
+
+    <section class="contact-section">
+      <h2>Contact Us / Custom Orders</h2>
+      <form id="contactForm">
+        <div class="form-row">
+          <label for="name">Name:</label>
+          <input type="text" id="name" required />
+        </div>
+        <div class="form-row">
+          <label for="email">Email:</label>
+          <input type="email" id="email" required />
+        </div>
+        <div class="form-row">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" />
+        </div>
+        <div class="form-row">
+          <label for="address">Address:</label>
+          <input type="text" id="address" />
+        </div>
+        <div class="form-row">
+          <label for="message">Message:</label>
+          <textarea id="message" rows="4" required></textarea>
+        </div>
+        <div class="form-row checkbox">
+          <label><input type="checkbox" id="customOrder" /> This is a custom order</label>
+        </div>
+        <div class="form-actions">
+          <button type="submit">Submit</button>
+          <button type="reset">Clear Form</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Book Haven Bookstore</p>
+    <div class="footer-links">
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+    </div>
+  </footer>
+</body>
+</html>
